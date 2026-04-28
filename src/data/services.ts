@@ -14,6 +14,7 @@ import {
   HelpingHand,
   ThermometerSun,
   Paintbrush,
+  Truck,
 } from "lucide-react";
 
 export type Service = {
@@ -225,6 +226,20 @@ export const services: Service[] = [
     image:
       "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=1200&q=80&auto=format&fit=crop",
     accent: "from-orange-500/20 to-amber-500/0",
+  },
+  {
+    id: "materials",
+    title: "Доставка и закупка",
+    short: "Стройматериалы с гарантией лучшей цены",
+    description:
+      "Подберём, закупим и привезём стройматериалы под ваш проект. Прямые контракты с поставщиками — экономия до 25% от розничных цен. Доставка с разгрузкой и подъёмом на этаж.",
+    bullets: ["Подбор и закупка по смете", "Доставка с подъёмом на этаж", "Возврат лишнего без процентов"],
+    priceFrom: 1500,
+    unit: "доставка",
+    icon: Truck,
+    image:
+      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=1200&q=80&auto=format&fit=crop",
+    accent: "from-teal-500/20 to-emerald-500/0",
   },
   {
     id: "painting",
