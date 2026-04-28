@@ -238,7 +238,7 @@ export const services: Service[] = [
     unit: "доставка",
     icon: Truck,
     image:
-      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1710141530542-f792450e736e?w=1200&q=80&auto=format&fit=crop",
     accent: "from-teal-500/20 to-emerald-500/0",
   },
   {
